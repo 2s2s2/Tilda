@@ -1,0 +1,97 @@
+body, h1, h2, h3, h4, p, ol, ul, li {
+	margin: 0;
+	font-family: "Helvetica"
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+b{
+	font-weight: 900;
+}
+
+.container{	
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+}
+
+.container__left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 50%;
+	background-image: url("./img/Tilda_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Помоему чёта маловато в толстоту*/
+
+.header{
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	height: 60px;
+	font-size: 15px;
+}
+
+.header a{
+	margin-right: 15px;
+}
+
+.container__right{
+	padding-left: 30px;
+	height: 100vh;
+	background-color: white;
+}
+
+.container__right h1{
+	font-weight: 200;
+	padding-top: 300px;
+}
+
+.container__right p{
+	font-size: 15px;
+	padding-top: 40px;
+}
+
+.btn.-white, .btn.-large{
+	margin-top: 40px;
+}
+
+.btn.-auth{
+	background-color: white;
+	padding: 10px 30px;
+	border-color: black;	
+	font-weight: 900;
+	margin: 0 30px;
+	padding: 0;
+	height: 30px;
+	width: 150px;
+}
+
+/*Чёта кнопка съехала*/
+
+.btn.-white{
+	background-color: white;
+	padding: 10px 30px;
+	border-color: black;	
+	font-weight: 900;
+}
+
+.btn.-large{
+	background-color: salmon;
+	color: white;
+	font-weight: 900;
+	border: none;	
+	padding: 12px 30px;
+}
